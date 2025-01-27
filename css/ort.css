@@ -1,0 +1,42 @@
+.place-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* OpenStreetMap Einbettung */
+.map-container {
+  position: relative;
+  height: 600px; /* Höhe der Karte */
+  margin-bottom: 30px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Zentrierung der Karten und Texte */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content h3 {
+  margin-bottom: 15px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  width: 30px;
+}
