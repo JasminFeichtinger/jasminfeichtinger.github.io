@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  max-width: 230px;
+  max-width: 250px;
   width: 100%;
 }
 .timeline-item .icon {

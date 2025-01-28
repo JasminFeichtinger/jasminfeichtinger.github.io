@@ -11279,7 +11279,7 @@ hr.divider-light {
 
 header.masthead {
   padding-top: 10rem;
-  height: 100vh;
+  height: 92vh;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
@@ -11298,7 +11298,7 @@ header.masthead .h1 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 92vh;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
