@@ -8457,7 +8457,7 @@ fieldset:disabled .btn {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #88857c !important;
+  background-color: #2a6b3b !important;
 }
 
 .bg-secondary {
@@ -11202,7 +11202,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #2a6b3b;
   opacity: 1;
 }
 
@@ -11279,7 +11279,7 @@ hr.divider-light {
 
 header.masthead {
   padding-top: 10rem;
-  height: 92vh;
+  height: 96vh;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
@@ -11287,7 +11287,7 @@ header.masthead {
       rgba(92, 77, 66, 0.8) 100%
     ),
     url("../assets/img/bg-masthead.jpg");
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -11298,7 +11298,7 @@ header.masthead .h1 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 92vh;
+    height: 96vh;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
