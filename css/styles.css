@@ -11304,13 +11304,14 @@ header.masthead {
       rgba(92, 77, 66, 0.8) 0%,
       rgba(92, 77, 66, 0.8) 100%
     ),
-    url("../assets/img/bg-masthead.jpg");
-  background-position: bottom;
-  --background-repeat: no-repeat;
-  --background-attachment: scroll;
+    url("../assets/img/bg-masthead8.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   background-size: cover;
   background-attachment: fixed;
   flex-grow: 1;
+  background-position: bottom;
 }
 header.masthead h1,
 header.masthead .h1 {
@@ -11321,6 +11322,18 @@ header.masthead .h1 {
     height: 100%;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(92, 77, 66, 0.8) 0%,
+        rgba(92, 77, 66, 0.8) 100%
+      ),
+      url("../assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-grow: 1;
+    background-position: bottom;
   }
   header.masthead p {
     font-size: 1.15rem;
