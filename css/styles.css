@@ -11311,7 +11311,7 @@ header.masthead {
   background-size: cover;
   background-attachment: fixed;
   flex-grow: 1;
-  background-position: bottom;
+  background-position: top;
 }
 header.masthead h1,
 header.masthead .h1 {
@@ -11333,7 +11333,7 @@ header.masthead .h1 {
     background-size: cover;
     background-attachment: fixed;
     flex-grow: 1;
-    background-position: bottom;
+    background-position: top;
   }
   header.masthead p {
     font-size: 1.15rem;
